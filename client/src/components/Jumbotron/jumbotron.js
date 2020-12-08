@@ -1,18 +1,23 @@
 import React from "react";
 import { Jumbotron, Container } from "reactstrap";
 import "./jumbotron.css";
-import car from "../../images/bg-mobile-light.jpg";
+import mobileHeaderBkgd from "../../images/bg-mobile-light.jpg";
+import moon from "../../images/icon-moon.svg";
 
 const JumbotronToDo = (props) => {
   return (
     <div>
-      <Jumbotron fluid style={{ backgroundImage: `url(${car})` }}>
-        <Container fluid>
-          <h1 className="display-3">Fluid jumbotron</h1>
-          <p className="lead">
-            This is a modified jumbotron that occupies the entire horizontal
-            space of its parent.
-          </p>
+      <Jumbotron
+        fluid
+        style={{
+          backgroundImage: `url(${mobileHeaderBkgd})`,
+          width: "100%",
+          height: "150px",
+        }}
+      >
+        <Container fluid id="container">
+          <div id="heading">TODO</div>
+          <img src={moon} alt="moon icon" id="moon" />
         </Container>
       </Jumbotron>
     </div>

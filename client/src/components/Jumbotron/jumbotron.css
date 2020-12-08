@@ -1,3 +1,20 @@
 /* jumbo {
   background-image: url("./../../images/bg-mobile-light.jpg");
 } */
+#container {
+  display: flex;
+}
+
+#heading {
+  width: 316px;
+  font-size: 20px;
+  color: hsl(0, 0%, 98%);
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  margin-top: 14px;
+  padding: 0;
+}
+#moon {
+  margin-top: 14px;
+  height: 18px;
+}
