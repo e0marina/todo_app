@@ -1,5 +1,27 @@
+#form-grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 50px);
+}
+
 #inputBox {
-  margin: 24px auto !important;
+  /* margin: 24px auto !important;
   width: 90% !important;
-  font-size: 12px !important;
+  font-size: 12px !important; */
+  grid-column: 2/6;
+  grid-row: 1/2;
+  position: relative;
+  z-index: 1;
+  padding-left: 25px;
+}
+
+#circle-icon {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  position: absolute;
+  z-index: 100;
+  left: 68px;
+  top: 87px;
+  color: darkgray;
+  /* margin: 10px auto; */
 }

@@ -7,8 +7,10 @@ import "./inputBox.css";
 const InputBox = (props) => {
   return (
     <Form>
-      <FontAwesomeIcon icon={regularCircle} />
-      <Input id="inputBox" placeholder="create a new todo" />
+      <div id="form-grid-container">
+        <FontAwesomeIcon icon={regularCircle} id="circle-icon" />
+        <Input id="inputBox" placeholder="create a new todo" />
+      </div>
     </Form>
   );
 };
