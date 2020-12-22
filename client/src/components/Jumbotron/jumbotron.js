@@ -1,8 +1,8 @@
 import React from "react";
 import { Jumbotron, Container } from "reactstrap";
 import "./jumbotron.css";
-import mobileHeaderBkgd from "../../images/bg-mobile-light.jpg";
-import moon from "../../images/icon-moon.svg";
+import mobileHeaderBkgd from "../images/bg-mobile-light.jpg";
+import moon from "../images/icon-moon.svg";
 import InputBox from "../InputBox/inputBox.js";
 
 const JumbotronToDo = (props) => {
