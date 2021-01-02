@@ -1,17 +1,22 @@
 #container {
   display: flex;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 575px;
 }
 
 #heading {
   width: 316px;
-  font-size: 20px;
+  font-size: 36px;
   color: hsl(0, 0%, 98%);
   font-weight: 700;
   letter-spacing: 0.4em;
-  margin-top: 14px;
+  margin-top: 7px;
   padding: 0;
 }
 #moon {
-  margin-top: 14px;
-  height: 18px;
+  margin-top: 24px;
+  margin-left: 193px;
+  height: 20px;
 }
