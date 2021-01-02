@@ -11,7 +11,7 @@ const InputBox = (props) => {
   return (
     <div>
       {(!checked && (
-        <div id="form" className="col-md-12">
+        <div id="form" orclassName="col-md-12">
           <input type="password" className="form-control" id="inputBox"></input>
           <input
             type="checkbox"
