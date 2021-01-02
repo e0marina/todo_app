@@ -6,35 +6,22 @@
 } */
 #form {
   margin: 7px;
+  position: relative;
+  width: 575px;
+  margin: 0 auto;
 }
 #inputBox {
-  /* margin: 24px auto !important;
-  width: 90% !important;
-  font-size: 12px !important; */
-  /* grid-column: 2/6;
-  grid-row: 1/2; */
-  position: relative;
   display: inline-block;
   z-index: 1;
-  /* padding-left: 25px; */
   width: 575px;
   margin: 0 auto;
 }
 #checkBox {
   position: absolute !important;
   z-index: 100;
-  top: 6px;
-  left: 45px;
+  top: 5px;
+  right: 550px;
 }
-/* #circle-icon {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  position: absolute;
-  z-index: 100;
-  left: 68px;
-  top: 87px;
-  color: lightgrey;
-  /* margin: 10px auto; */
 
 #check-logo-icon {
   background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
