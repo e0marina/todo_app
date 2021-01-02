@@ -11,17 +11,21 @@ const InputBox = (props) => {
   return (
     <div>
       {(!checked && (
-        <Form>
-          <div id="form-grid-container">
-            <FontAwesomeIcon
-              icon={regularCircle}
-              id="circle-icon"
+        <div className="col-md-12">
+          <form>
+            <input
+              type="password"
+              className="form-control"
+              id="inputBox"
+            ></input>
+            <input
+              type="checkbox"
+              className="form-check-input"
+              id="checkBox"
               onClick={() => setChecked(true)}
-            />
-
-            <Input id="inputBox" placeholder="create a new todo..." />
-          </div>
-        </Form>
+            ></input>
+          </form>
+        </div>
       )) || (
         <Form>
           <div id="form-grid-container">
