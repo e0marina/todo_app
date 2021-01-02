@@ -11,20 +11,14 @@ const InputBox = (props) => {
   return (
     <div>
       {(!checked && (
-        <div className="col-md-12">
-          <form>
-            <input
-              type="password"
-              className="form-control"
-              id="inputBox"
-            ></input>
-            <input
-              type="checkbox"
-              className="form-check-input"
-              id="checkBox"
-              onClick={() => setChecked(true)}
-            ></input>
-          </form>
+        <div id="form" className="col-md-12">
+          <input type="password" className="form-control" id="inputBox"></input>
+          <input
+            type="checkbox"
+            className="form-check-input"
+            id="checkBox"
+            onClick={() => setChecked(true)}
+          ></input>
         </div>
       )) || (
         <Form>

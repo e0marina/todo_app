@@ -4,23 +4,27 @@
   grid-template-rows: repeat(3, 50px);
   
 } */
-
+#form {
+  margin: 7px;
+}
 #inputBox {
   /* margin: 24px auto !important;
   width: 90% !important;
   font-size: 12px !important; */
-  grid-column: 2/6;
-  grid-row: 1/2;
-  /* position: relative; */
+  /* grid-column: 2/6;
+  grid-row: 1/2; */
+  position: relative;
+  display: inline-block;
   z-index: 1;
-  padding-left: 25px;
+  /* padding-left: 25px; */
   width: 575px;
   margin: 0 auto;
 }
 #checkBox {
   position: absolute !important;
-  /* top: 157px;
-  left: 820px; */
+  z-index: 100;
+  top: 6px;
+  left: 45px;
 }
 /* #circle-icon {
   grid-column: 1/2;
