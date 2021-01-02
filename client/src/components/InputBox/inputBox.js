@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Form, Input } from "reactstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircle as regularCircle } from "@fortawesome/free-regular-svg-icons";
+import { Form, Input, CustomInput } from "reactstrap";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCircle as regularCircle } from "@fortawesome/free-regular-svg-icons";
 import { ReactComponent as CheckLogo } from "../images/icon-check.svg";
 import "./inputBox.css";
 
