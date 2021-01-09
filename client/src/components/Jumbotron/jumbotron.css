@@ -20,3 +20,8 @@
   margin-left: 193px;
   height: 20px;
 }
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 2rem 1rem !important;
+  }
+}

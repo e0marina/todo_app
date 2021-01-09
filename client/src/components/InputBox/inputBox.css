@@ -23,12 +23,14 @@
   top: 5px;
   right: 550px;
 }
-
+path {
+  margin: 0 auto;
+}
 #check-logo-icon {
   background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
-  border-radius: 100%;
+  border-radius: 50%;
   position: absolute;
   z-index: 101;
-  left: 70px;
-  top: 90px;
+  top: 11px;
+  right: 550px;
 }

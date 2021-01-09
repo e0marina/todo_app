@@ -12,7 +12,7 @@ const InputBox = (props) => {
     <div>
       {(!checked && (
         <div id="form" orclassName="col-md-12">
-          <input type="password" className="form-control" id="inputBox"></input>
+          <input type="text" className="form-control" id="inputBox"></input>
           <input
             type="checkbox"
             className="form-check-input"
@@ -22,7 +22,7 @@ const InputBox = (props) => {
         </div>
       )) || (
         <div id="form" orclassName="col-md-12">
-          <input type="password" className="form-control" id="inputBox"></input>
+          <input type="text" className="form-control" id="inputBox"></input>
           <CheckLogo id="check-logo-icon" onClick={() => setChecked(false)} />
         </div>
       )}
