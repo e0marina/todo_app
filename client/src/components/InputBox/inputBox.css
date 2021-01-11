@@ -4,13 +4,13 @@
   grid-template-rows: repeat(3, 50px);
   
 } */
-#form {
+/* #form {
   margin: 7px;
   position: relative;
   width: 575px;
   margin: 0 auto;
-}
-#inputBox {
+} */
+/* #inputBox {
   display: inline-block;
   z-index: 1;
   width: 575px;
@@ -22,9 +22,33 @@
   border-radius: 50%;
   top: 5px;
   right: 550px;
-}
-path {
+} */
+/* path {
   margin: 0 auto;
+} */
+#input-block {
+  margin: 0 auto;
+  width: 40%;
+}
+.input-group-text {
+  background-color: white !important;
+  border: 1px white !important;
+}
+.form-control {
+  border: 1px white !important;
+}
+.form-check-input {
+  margin-left: -0.5rem !important;
+}
+.form-check-input[type="checkbox"] {
+  /* border-radius: .25em; */
+  border-radius: 50%;
+
+  background-image: url("../images/icon-check.svg") !important;
+}
+
+.form-check-input:checked {
+  background-image: url("../images/icon-check.svg") !important;
 }
 #check-logo-icon {
   background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));

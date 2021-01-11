@@ -1,31 +1,24 @@
-import React, { useState } from "react";
-// import { Form, Input, CustomInput } from "reactstrap";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCircle as regularCircle } from "@fortawesome/free-regular-svg-icons";
-import { ReactComponent as CheckLogo } from "../images/icon-check.svg";
+import React from "react";
 import "./inputBox.css";
 
 const InputBox = (props) => {
-  const [checked, setChecked] = useState(false);
-
   return (
     <div>
-      {(!checked && (
-        <div id="form" orclassName="col-md-12">
-          <input type="text" className="form-control" id="inputBox"></input>
+      <div className="input-group mb-3" id="input-block">
+        <div className="input-group-text">
           <input
             type="checkbox"
             className="form-check-input"
-            id="checkBox"
-            onClick={() => setChecked(true)}
+            value=""
+            aria-label="Checkbox for following text input"
           ></input>
         </div>
-      )) || (
-        <div id="form" orclassName="col-md-12">
-          <input type="text" className="form-control" id="inputBox"></input>
-          <CheckLogo id="check-logo-icon" onClick={() => setChecked(false)} />
-        </div>
-      )}
+        <input
+          type="text"
+          className="form-control"
+          aria-label="Text input with checkbox"
+        ></input>
+      </div>
     </div>
   );
 };
