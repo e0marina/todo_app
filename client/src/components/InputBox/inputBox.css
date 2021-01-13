@@ -39,16 +39,15 @@
 }
 .form-check-input {
   margin-left: -0.5rem !important;
+  /* background-image: url("../images/icon-check.svg") !important; */
 }
 .form-check-input[type="checkbox"] {
   /* border-radius: .25em; */
   border-radius: 50%;
-
-  background-image: url("../images/icon-check.svg") !important;
 }
 
 .form-check-input:checked {
-  background-image: url("../images/icon-check.svg") !important;
+  /* background-image: url("../images/icon-check.svg") !important; */
 }
 #check-logo-icon {
   background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
