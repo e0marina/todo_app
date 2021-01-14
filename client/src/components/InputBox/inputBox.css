@@ -1,31 +1,3 @@
-/* #form-grid-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, 50px);
-  
-} */
-/* #form {
-  margin: 7px;
-  position: relative;
-  width: 575px;
-  margin: 0 auto;
-} */
-/* #inputBox {
-  display: inline-block;
-  z-index: 1;
-  width: 575px;
-  margin: 0 auto;
-}
-#checkBox {
-  position: absolute !important;
-  z-index: 100;
-  border-radius: 50%;
-  top: 5px;
-  right: 550px;
-} */
-/* path {
-  margin: 0 auto;
-} */
 #input-block {
   margin: 0 auto;
   width: 40%;
@@ -39,21 +11,15 @@
 }
 .form-check-input {
   margin-left: -0.5rem !important;
-  /* background-image: url("../images/icon-check.svg") !important; */
 }
 .form-check-input[type="checkbox"] {
-  /* border-radius: .25em; */
   border-radius: 50%;
 }
 
 .form-check-input:checked {
-  /* background-image: url("../images/icon-check.svg") !important; */
-}
-#check-logo-icon {
-  background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
-  border-radius: 50%;
-  position: absolute;
-  z-index: 101;
-  top: 11px;
-  right: 550px;
+  background-image: url("../images/icon-check.svg") !important;
+  background: linear-gradient(
+    hsl(192, 100%, 67%),
+    hsl(280, 87%, 65%)
+  ) !important;
 }
