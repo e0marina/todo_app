@@ -1,0 +1,11 @@
+.container {
+  border: 2px solid green;
+  background: transparent;
+  position: relative;
+}
+
+.col-6 {
+  margin: 0 auto;
+  position: absolute;
+  top: -114px;
+}
