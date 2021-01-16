@@ -21,6 +21,7 @@ const JumbotronToDo = (props) => {
           <div id="heading">TODO</div>
           <img src={moon} alt="moon icon" id="moon" />
         </Container>
+
         <InputBox />
       </Jumbotron>
     </div>

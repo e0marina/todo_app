@@ -1,8 +1,14 @@
 import "./App.css";
 import Jumbotron from "./components/Jumbotron/jumbotron";
+import MainCard from "./components/MainCard/mainCard.js";
 
 function App() {
-  return <Jumbotron />;
+  return (
+    <div>
+      <Jumbotron />
+      <MainCard />
+    </div>
+  );
 }
 
 export default App;
