@@ -1,11 +1,20 @@
-.container {
+#heading {
+  font-size: 36px;
+  color: hsl(0, 0%, 98%);
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  padding: 0;
+}
+#moon {
+  margin-top: 15px;
+  margin-left: 214px;
+  height: 20px;
+}
+
+#main-wrapper {
+  width: 638px;
   border: 2px solid green;
   background: transparent;
   position: relative;
-}
-
-.col-3 {
-  margin: 0 auto;
-  position: absolute;
-  top: -114px;
+  top: -204px;
 }
