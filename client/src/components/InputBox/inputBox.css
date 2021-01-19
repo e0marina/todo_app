@@ -1,22 +1,44 @@
-#input-block {
-  margin: 0 auto;
-  /* width: 39.5%; */
-}
-.input-group-text {
-  background-color: white !important;
-  border: 1px white !important;
-}
-.form-control {
-  border: 1px white !important;
-}
-.form-check-input {
-  margin-left: -0.5rem !important;
-}
-.form-check-input[type="checkbox"] {
-  border-radius: 50%;
+.inputWrapper {
+  background-color: white;
+  position: relative;
+  height: 30px;
+  border-radius: 5px;
+  padding: 18px;
+  border: 1px grey solid;
+  margin-bottom: 10px;
 }
 
-.form-check-input:checked {
-  background: url("../images/icon-check.svg"),
+#text-input {
+  position: absolute;
+  top: 3px;
+  text-decoration: none;
+  width: 90%;
+  background-color: white !important;
+  outline: none;
+  margin-left: 15px;
+  border: none;
+}
+
+#check-box {
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.svg-checkmark {
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked {
+  background: url(../images/icon-check.svg),
     linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
 }
