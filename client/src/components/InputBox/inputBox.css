@@ -1,6 +1,6 @@
 #input-block {
   margin: 0 auto;
-  width: 39.5%;
+  /* width: 39.5%; */
 }
 .input-group-text {
   background-color: white !important;
@@ -17,9 +17,6 @@
 }
 
 .form-check-input:checked {
-  background-image: url("../images/icon-check.svg") !important;
-  background: linear-gradient(
-    hsl(192, 100%, 67%),
-    hsl(280, 87%, 65%)
-  ) !important;
+  background: url("../images/icon-check.svg"),
+    linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
 }
