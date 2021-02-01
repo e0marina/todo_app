@@ -1,28 +1,30 @@
 .inputWrapper {
   background-color: white;
   position: relative;
-  height: 30px;
+  height: 55px;
+  /* width: 90%; */
   border-radius: 5px;
   padding: 18px;
-  border: 1px grey solid;
+  /* border: 1px grey solid; */
   margin-bottom: 10px;
+  /* border-bottom: 1px grey solid; */
 }
 
 #text-input {
   position: absolute;
-  top: 3px;
+  top: 15px;
   text-decoration: none;
-  width: 90%;
+  width: 88%;
   background-color: white !important;
   outline: none;
-  margin-left: 15px;
+  margin-left: 20px;
   border: none;
 }
 
 #check-box {
   position: absolute;
-  top: 8px;
-  left: 5px;
+  top: 17px;
+  left: 15px;
   width: 1.3em;
   height: 1.3em;
   background-color: white;
@@ -41,4 +43,10 @@
 input[type="checkbox"]:checked {
   background: url(../images/icon-check.svg),
     linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+.main-input-area {
+  background-color: white;
+  border-radius: 5px;
+  width: 539px;
 }
